@@ -12,6 +12,11 @@ Start by cloning this repository onto your local machine. Everything you will ne
 3. Experiment with which behavioral parameters are most separated in low dimensional space (block type, trial number, time, head position, angular velocity, etc.)
 4. [Structural Index](https://github.com/PridaLab/structure_index) for Neural Manifolds
 
+# Data:
+
+Data can be downloaded from this google drive:
+https://drive.google.com/drive/folders/1k0v689KtANodxuhu436aghavizu3keBk?usp=drive_link
+
 # Acknowledgements 
 The data come from recordings described [in this paper](https://www.biorxiv.org/content/10.1101/2023.12.06.570369v1) (Abbaspoor and Hoffman, bioRxiv, 2023).
 
