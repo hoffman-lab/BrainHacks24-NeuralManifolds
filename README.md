@@ -3,6 +3,9 @@ What are the meaningful changes in the brain with experience, that allows for ad
 
 Here's a cool illustration of [neural ensembles in macaque hippocampus](https://www.youtube.com/watch?v=PVLZRPLcwW4) which we are interested in studying. 
 
+# How to Start 
+Start by cloning this repository onto your local machine. Everything you will need to get started is in the brainhack_example.ipynb notebook. Click through the notebook to see how our data is formatted, and how we can implement various neural manifold learning algorithms (e.g. PCA, tSNE, and UMAP) to represent the neural ensembles in a low dimensional space. 
+
 # Open Research Themes 
 1. Experiment on neural manifold creation with using different hyperparameters
 2. Create UI to visualize neural manifolds across different hyperparameters
