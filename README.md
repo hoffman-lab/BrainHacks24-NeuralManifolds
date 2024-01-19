@@ -3,8 +3,31 @@ What are the meaningful changes in the brain with experience, that allows for ad
 
 Here's a cool illustration of [neural ensembles in macaque hippocampus](https://www.youtube.com/watch?v=PVLZRPLcwW4) which we are interested in studying. 
 
-# How to Start 
-Start by cloning this repository onto your local machine. Everything you will need to get started is in the brainhack_example.ipynb notebook. Click through the notebook to see how our data is formatted, and how we can implement various neural manifold learning algorithms (e.g. PCA, tSNE, and UMAP) to represent the neural ensembles in a low dimensional space. 
+# Getting started 
+Make sure that you have Python installed onto your computer as well as the code editor that you prefer (we would recommend Visual Studio Code for Github copilot and integrated git access). 
+
+Start by creating and activating a virtual environment. 
+```bash
+# Create a virtual environment
+python3 -m venv env
+
+# Activate the virtual environment
+# On Windows
+env\Scripts\activate
+
+# On Unix or MacOS
+source env/bin/activate
+```
+
+Clone this repository onto your local machine:
+```bash
+git clone https://github.com/hoffman-lab/BrainHacks24-NeuralManifolds.git
+```
+Ensure that you have all the dependencies installed: 
+```bash
+pip install -r requirements.txt
+```
+ Everything you will need to get started is in the brainhack_example.ipynb notebook. Click through the notebook to see how our data is formatted, and how we can implement various neural manifold learning algorithms (e.g. PCA, tSNE, and UMAP) to represent the neural ensembles in a low dimensional space. 
 
 # Open Research Themes 
 1. Experiment on neural manifold creation with using different hyperparameters (e.g. n_neighbors or min_dist in UMAP). Different parameters can greatly change the shape of the manifold and thus can affect the ability to decode different behaviors. Afterwards, consider creating UI to visualize neural manifolds across different hyperparameters. [Here](https://pair-code.github.io/understanding-umap/) is a great example.
