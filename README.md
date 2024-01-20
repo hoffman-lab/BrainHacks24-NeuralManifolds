@@ -23,9 +23,9 @@ env\Scripts\activate
 source env/bin/activate
 ```
 
-Clone this repository onto your local machine:
+First fork this repository to your local repository and clone this repository onto your local machine. 
 ```bash
-git clone https://github.com/hoffman-lab/BrainHacks24-NeuralManifolds.git
+git clone [link to your repo]
 ```
 Ensure that you have all the dependencies installed: 
 ```bash
