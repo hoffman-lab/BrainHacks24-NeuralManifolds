@@ -29,6 +29,10 @@ git clone [link to your repo]
 ```
 Ensure that you have all the dependencies installed: 
 ```bash
+# If you have python 3
+pip3 install -r requirements.txt
+
+# If you have python 2
 pip install -r requirements.txt
 ```
  Download the data from the Google Drive link above and save the files somewhere on your computer. Everything you will need to get started is in the brainhack_example.ipynb notebook. 
