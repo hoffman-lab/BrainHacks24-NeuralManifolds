@@ -6,3 +6,4 @@ pandas
 cebra
 umap 
 optuna
+scikit-learn
