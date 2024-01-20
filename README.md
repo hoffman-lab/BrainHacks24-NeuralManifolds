@@ -22,7 +22,6 @@ env\Scripts\activate
 # On Unix or MacOS
 source env/bin/activate
 ```
-
 First fork this repository to your local repository and clone this repository onto your local machine. 
 ```bash
 git clone [link to your repo]
@@ -31,7 +30,12 @@ Ensure that you have all the dependencies installed:
 ```bash
 pip install -r requirements.txt
 ```
- Download the data from the Google Drive link above and save the files somewhere on your computer. Everything you will need to get started is in the brainhack_example.ipynb notebook. There are a few lines that you will need to change to be the file name of the data: 
+ Download the data from the Google Drive link above and save the files somewhere on your computer. Everything you will need to get started is in the brainhack_example.ipynb notebook. 
+ Before you make changes to your code, create a new branch: 
+ ```bash
+git checkout -b [name of your branch]
+ ```
+ There are a few lines that you will need to change to be the file name of the data: 
  
  ```python 
 # Update the name of the animal that you are analyzing (FN or WI) and replace the data_file variable to be the full path of the h5 data file. 
@@ -40,6 +44,27 @@ data_file = "path/to/data.h5"
  ```
  
  Click through the notebook to see how our data is formatted, and how we can implement various neural manifold learning algorithms (e.g. PCA, tSNE, and UMAP) to represent the neural ensembles in a low dimensional space. 
+
+To keep in sync with my changes, you can do the following: 
+
+```bash
+# Set the upstream directory to be my original repo 
+git remote add upstream https://github.com/hoffman-lab/BrainHacks24-NeuralManifolds.git 
+
+# Fetch changes 
+git fetch upstream 
+
+# Merge changes into your main branch 
+git rebase upstream/main
+```
+
+Feel free to push your changes to your forked repo: 
+
+```bash
+git push -u origin [name of your branch] 
+```
+
+Let me know if you would like to make a pull request! 
 
 # Open Research Themes 
 1. Experiment on neural manifold creation with using different hyperparameters (e.g. n_neighbors or min_dist in UMAP). Different parameters can greatly change the shape of the manifold and thus can affect the ability to decode different behaviors. Afterwards, consider creating UI to visualize neural manifolds across different hyperparameters. [Here](https://pair-code.github.io/understanding-umap/) is a great example.
