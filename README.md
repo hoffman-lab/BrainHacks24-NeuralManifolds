@@ -8,6 +8,7 @@ Data can be downloaded from this google drive:
 https://drive.google.com/drive/folders/1k0v689KtANodxuhu436aghavizu3keBk?usp=drive_link
 
 # Getting started 
+## Downloads
 Make sure that you have Python installed onto your computer as well as the code editor that you prefer (we would recommend Visual Studio Code for Github copilot and integrated git access). 
 
 Start by creating and activating a virtual environment. 
@@ -31,6 +32,8 @@ Ensure that you have all the dependencies installed:
 pip install -r requirements.txt
 ```
  Download the data from the Google Drive link above and save the files somewhere on your computer. Everything you will need to get started is in the brainhack_example.ipynb notebook. 
+
+ ## Making edits
  Before you make changes to your code, create a new branch: 
  ```bash
 git checkout -b [name of your branch]
